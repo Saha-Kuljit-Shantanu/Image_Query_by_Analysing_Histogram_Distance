@@ -21,5 +21,6 @@
   - Open two terminals
   - In the first terminal put the following commands sequentially :
       - **cd image-query**
+      - **npm install** (Only the first time to install dependencies)
       - **npm run dev**
   - In the second terminal run **/Flask-Server.py**
