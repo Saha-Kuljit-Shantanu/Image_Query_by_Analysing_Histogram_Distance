@@ -18,6 +18,8 @@
   - Open the entire folder **Image_Query_by_Analysing_Histogram_Distance** as a project in any text editor and navigate to this folder in terminal
   - If **Flask** is not installed, then it needs to be installed :
       - **pip install flask**
+  - If **PIL (Python Image Linrary)** is not installed, then it needs to be installed :
+      - **pip install PIL**
   - Open two terminals
   - In the first terminal put the following commands sequentially :
       - **cd image-query**
