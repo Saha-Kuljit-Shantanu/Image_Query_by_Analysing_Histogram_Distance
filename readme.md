@@ -6,6 +6,8 @@
   - The histogram of the images in the folder **/image-query/public/Data** are already trained through the code **/Store_Image_Histogram.py**
   - The histogram of the images of the corresponding files has been stored in the csv file **/Histogram_file.csv**
   - Further images or image directories can be added to the folder **/image-query/public/Data** and the histograms of the images can be stored offline running the code **/Store_Image_Histogram.py** . The csv file **/Histogram_file.csv** gets updated automatically
+  - Running the code is recommended as the path in the CSV file is as per the local device path **D:/Git/image-query/public/Data**
+  - Running the code is not necessary if anyone follows the path and preserves the repository folder in a folder named **Git** stored in the **D drive** of the local device
 
 **Data Testing :**
   - User will run necessary code following the instructions in the presentation file **How to Run this project.pptx**
@@ -14,11 +16,11 @@
   - Then the user selects the image and clicks **Search** button
 
 **How to run this Project ?**
-  - Although a detailed procedure is explained in file **How to Run this project.pptx**, here i a quick precap
+  - Although a detailed procedure is explained in file **How to Run this project.pptx**, here is a quick precap
   - Open the entire folder **Image_Query_by_Analysing_Histogram_Distance** as a project in any text editor and navigate to this folder in terminal
   - If **Flask** is not installed, then it needs to be installed :
       - **pip install flask**
-  - If **PIL (Python Image Linrary)** is not installed, then it needs to be installed :
+  - If **PIL (Python Image Library)** is not installed, then it needs to be installed :
       - **pip install PIL**
   - Open two terminals
   - In the first terminal put the following commands sequentially :
