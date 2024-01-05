@@ -6,6 +6,8 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 histogram_file = open("Histogram_file.csv", "w")
 
+# Extract Histogram of all image files in Data folder and write to CSV file Histogram_file.csv
+
 for (dirpath, dirnames, filenames) in os.walk(dir_path + "\\image-query\\public\\Data"):
 
     for filename in filenames:
@@ -23,12 +25,14 @@ for (dirpath, dirnames, filenames) in os.walk(dir_path + "\\image-query\\public\
             histogram_file.write(",")
             histogram_file.write(str(pixel_value))
 
-        #histogram_file.write("\n")
         histogram_file.write("\n")
 
-    #histogram_file.write("\n")
 
 histogram_file.close()
+
+
+
+
 
     
 

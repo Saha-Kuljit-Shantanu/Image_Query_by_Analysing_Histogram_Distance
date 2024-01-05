@@ -1,9 +1,11 @@
-from flask import Flask, send_from_directory,request,jsonify,render_template
+from flask import Flask, send_from_directory,request,jsonify
 from werkzeug.utils import secure_filename
 from Image_Histogram_Extraction import extract_histogram_vector
 from Get_Histogram_Distance_Sorted import get_histogram_distance_sorted
 
+
 app = Flask(__name__)
+
 
 #Connect Svelte public folder as root folder with Python Flask
 
